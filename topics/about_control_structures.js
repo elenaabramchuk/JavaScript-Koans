@@ -27,7 +27,7 @@ test("for in", function() {
 	for (var property_name in person) {
   		result = result + property_name;
 	};
-	equal(__ result, 'what is the value of result?');
+	equal(__, result, 'what is the value of result?');
 });
 
 test("ternary operator", function() {
